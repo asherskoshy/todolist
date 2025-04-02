@@ -25,7 +25,7 @@ function App() {
 
   useEffect(() => {
     fetchTodos();
-  }, []);
+  });
 
   const fetchTodos = async () => {
     try {
