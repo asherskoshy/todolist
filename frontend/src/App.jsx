@@ -16,7 +16,7 @@ import {
 import DeleteIcon from '@mui/icons-material/Delete';
 import EditIcon from '@mui/icons-material/Edit';
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://todolist-l9k0.onrender.com/api';
 
 function App() {
   const [todos, setTodos] = useState([]);
